@@ -8,6 +8,11 @@
 #include "proc.h"
 
 int
+sys_cps(void)
+{
+ return cps();
+}
+int
 sys_fork(void)
 {
   return fork();
